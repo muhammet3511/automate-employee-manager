@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="tests"
+    errors="0" failures="1" hostname="" id="" package="tests" skipped="0"
+    tests="1" time="5.402" timestamp="Mon, 11 Dec 2017 23:43:53 GMT">
+  
+    <testcase name="Editing an existing employee name will be saved in all areas" classname="tests" time="5.402" assertions="4">
+
+    
+
+    
+
+      <failure message="Expected element &lt;p[id=&#34;employeeTitle&#34;]&gt; text to equal: &#34;Bernice Ortis&#34;">    at Object.Editing an existing employee name will be saved in all areas (C:\Users\muhammet\Desktop\devmtn\Projects\automate-employee-manager\nightwatch\tests\tests.js:29:24)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
