@@ -2,6 +2,7 @@ module.exports = {
 homeScreen:{
 employeeDetails:{
     employeeTitle: 'p[id="employeeTitle"]',
+    noEmployeeTitle: 'p[id="noEmployee"]',
     saveButton: 'button[name="save"]',
     cancelButton: 'button[name="cancel"]',
     namefield:  'input[name="nameEntry"]',
@@ -10,7 +11,8 @@ employeeDetails:{
 placeHolderNam: 'span[class="placeholderName"]',
 placeHolderPhon: 'span[class="placeholderPhone"]',
 placeHolderTitl: 'span[class="placeholderTitle"]',
-titleTex:  'span[class="titleText"]'
+titleTex:  'span[class="titleText"]',
+employeeID: 'span[name="employeeID"]'
 
 },
 employeeNames:{
@@ -22,8 +24,8 @@ employeeNames:{
     employeename6:  'li[name="employee6"]',
     employeename7:  'li[name="employee7"]',
     employeename8: 'li[name="employee8"]',
-    employeename8: 'li[name="employee9"]',
-    employeename9: 'li[name="employee10"]',
+    employeename9: 'li[name="employee9"]',
+    employeename10: 'li[name="employee10"]',
 
 
 }

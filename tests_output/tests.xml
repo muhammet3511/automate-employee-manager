@@ -5,18 +5,18 @@
 
   <testsuite name="tests"
     errors="1" failures="0" hostname="" id="" package="tests" skipped="0"
-    tests="1" time="0.007000" timestamp="Mon, 11 Dec 2017 23:27:35 GMT">
+    tests="1" time="0.006000" timestamp="Tue, 19 Dec 2017 16:56:06 GMT">
   
-    <testcase name="Editing an existing employee info will be saved" classname="tests" time="0.007000" assertions="0">
+    <testcase name="Editing an existing employee name will be saved in all areas" classname="tests" time="0.006000" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [Tests / Editing an existing employee info will be saved]:
+        Error while running [Tests / Editing an existing employee name will be saved in all areas]:
 
-  TypeError: browser.expect.element(...).text.to.equal(...).click is not a function
-    at Object.Editing an existing employee info will be saved (C:\Users\muhammet\Desktop\devmtn\Projects\automate-employee-manager\nightwatch\tests\tests.js:17:14)
+  TypeError: Cannot read property &#39;element&#39; of undefined
+    at Object.Editing an existing employee name will be saved in all areas (C:\Users\muhammet\Desktop\devmtn\Projects\automate-employee-manager\nightwatch\tests\tests.js:38:25)
     at Module.call (C:\Users\muhammet\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
     at C:\Users\muhammet\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
     at _fulfilled (C:\Users\muhammet\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
